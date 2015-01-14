@@ -1,3 +1,15 @@
+/*
+Theme Name: Restaurant
+Theme URI: http://themewagon.com/demo/Restaurant/
+Author: ThemeWagon
+Author URI: http://themewagon.com/
+Description: 
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: restaurant
+*/
+
 /*========================
 GLOBAL
 =========================*/
@@ -176,6 +188,14 @@ background:url('../../s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat;
 NAV
 =========================*/
 
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-size: 34px !important;
+  text-decoration: none;
+  color: white !important;
+
+}
+
 nav {
   background: #1E1E1E !important;
   font-size: 18px;
@@ -200,11 +220,9 @@ INTRO CONTAINER
   min-width: 100%;
   height: 100%;
   background: url('../images/steak.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
    background-size: cover;
    text-align: center;
+   background-position: center;  
 }
 
 
@@ -225,14 +243,20 @@ INTRO CONTAINER
 }
  .top-title{
     color: white;
-    font-family: "Pacifico";
-    font-size: 60px;
+    font-family: 'Playball', cursive;
+    font-size: 120px;
+    font-weight: 400;
  }
 
+ .second-title {
+    font-weight: lighter; 
+    font-size: 30px; 
+    font-style: italic; 
+    text-transform: capitalize;
+}
+
 .white{
-  
   color: white;
-  
 }
 
 /*========================
@@ -280,22 +304,26 @@ IMAGE INTRO BANNER CONTENT
  #featured.background_content{
   background: url('../images/featured.jpg') no-repeat center center; 
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: center;
+background-attachment: fixed;
 }
  #pricing.background_content{
   background: url('../images/pricing.jpg') no-repeat center center; 
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: center;
+background-attachment: fixed;
 }
 #reservation.background_content{
   background: url('../images/reservation-seat.jpg') no-repeat center center; 
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: center;
+background-attachment: fixed;
 }
 #bread.background_content{
   background: url('../images/breakfast.jpg') no-repeat center center; 
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: center;
+background-attachment: fixed;
 }
 
 /*========================
@@ -304,10 +332,9 @@ DESCRIPTION BODY CONTENT
 
 
 .description_content {
-  padding-top: 130px !important;
-  padding-bottom: 20px;
+  padding: 50px 0;
   width: 100%;
-  background: white;
+  background: #fff;
   margin: 0 auto 0 auto;
   z-index: 99;
   position: relative;
@@ -1003,20 +1030,12 @@ DESCRIPTION BODY CONTENT
   background-attachment: fixed;
 }
 
-.description_content {
-  padding: 45px 0 45px 0;
-}
-.description_content1 {
-  padding: 45px 0 45px 0;
-}
-
-
-
 .description_body {
   max-width: 450px;
   display: inline-block;
   vertical-align: middle;
-  margin-top: 95px;
+  margin: 0;
+margin-top: 10px;
 
 }
 
@@ -1226,12 +1245,6 @@ margin-right: 60px;
 }
 /*Contact */
 
-
-
-  #contact{
-    padding:10px 0 10px;
-  }
-
   .contact-text{
     margin:45px auto;
   }
@@ -1271,6 +1284,10 @@ margin-right: 60px;
     height:auto;
     opacity: 1;
     margin:25px auto 0;
+  }
+
+  .inner.contact {
+    padding: 50px 0;
   }
 
 /* Input Styles */
@@ -1363,6 +1380,20 @@ margin-right: 60px;
     opacity: 0.9;
   }
 
+div.fa {
+    display: block;
+    padding: 30px 0px 25px 0px;
+}
 
+div .fa-2x {
+    padding: 30px 0px 25px 0px;
+}
 
+h1 {
+  text-transform: capitalize;
+}
 
+.navbar-default {
+  /*background-color: rgba(0,0,0,0.65) !important;*/
+  border: 0 !important;
+}

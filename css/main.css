@@ -84,7 +84,7 @@ li.item{
     position: relative; 
     width: 100%; /* for IE 6 */
 
-    background: rgba(129, 24, 24, 1);
+    background: rgba(211, 15, 34, 1);
 }
 
 .icon_knife {
@@ -210,7 +210,7 @@ nav {
 
 li{
     color: white !important;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     word-spacing: 5px !important;
 }
 

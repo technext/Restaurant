@@ -15,7 +15,7 @@ GLOBAL
 =========================*/
 
 .right-text{
-    background: rgba(191, 206, 191, 1);
+    background: rgba(80, 160, 108, 0.53);
     padding:15px 0 15px 25px; 
     text-align: left !important;
 }
@@ -150,7 +150,7 @@ h1, h2, p, span, a {
     transition: color 0.3s ease-in-out;
 }
 .color_animation:hover{
-    color: #5F8F34 !important;
+    color: #9BE86F !important;
 }
 
 /*========================
@@ -431,7 +431,7 @@ FIRST FOOTER CONTENT
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 0.040em;
-    color: #6c8f34;
+    color: #63C85D;
     text-align: center;
     margin: 40px 0 0 0;
 }
@@ -508,7 +508,7 @@ SECOND FOOTER CONTENT
 }
 
 .sub_footer a {
-    color: #6c8f34;
+    color: rgba(139, 232, 111, 0.77);
     text-decoration: none;
 }
 
@@ -583,7 +583,7 @@ SECOND FOOTER CONTENT
 .form{
     width: 100%;
     padding: 15px;
-    background:#E6C690;
+    background:#E2E2E2;
     border:1px solid rgba(0, 0, 0, 0.075);
     margin-bottom:25px;
     color:#727272 !important;
@@ -642,7 +642,7 @@ SECOND FOOTER CONTENT
     height: auto;
     padding:15px;
     color:#fff;
-    background:rgba(44, 111, 119, 1);
+    background:rgba(80, 160, 108, 1);
     border:none;
     border-radius:3px;
     outline: none;
@@ -661,7 +661,7 @@ SECOND FOOTER CONTENT
 }*/
 
 .form-btn:hover{
-    background:#111;
+    background: rgba(85, 184, 120, 1);
     color: white;
     border:none;
 }
@@ -1096,11 +1096,6 @@ MEDIA QUERIES TABLET
         font-size: 13px;
         font-weight: 700;
         letter-spacing: 0.090em;
-    }
-
-    .sub_footer a {
-        color: #6c8f34;
-        text-decoration: none;
     }
 
     .sub_footer a:hover {

@@ -37,14 +37,16 @@
 			}
 		});
 	
-         $(function() {
-            $( "#datepicker" ).datepicker();
-        });
-    
+       
         $(function(){
             $('#portfolio').mixitup({
                 targetSelector: '.item',
                 transitionSpeed: 450
             });
         });
+
+          $(function() {
+            $( "#datepicker" ).datepicker();
+        });
+    
     };

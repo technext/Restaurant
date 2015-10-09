@@ -13,15 +13,22 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
-
-.right-text{
-    background: rgba(80, 160, 108, 0.53);
-    padding:15px 0 15px 25px; 
-    text-align: left !important;
+.navactive{
+   border-bottom: 1px solid #96E16B;
 }
-
+p.desc-text{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+.text-content.container {
+    margin-top: 65px;
+    margin-bottom: -51px;
+}
 .right-text p{
     text-align: left !important;
+    border-bottom: 1px solid;
+    padding: 10px 0;
 }
 
 *, *:before, *:after {
@@ -153,42 +160,6 @@ h1, h2, p, span, a {
     color: #9BE86F !important;
 }
 
-/*========================
-AWARD BANNERS
-=========================*/
-.top{
-    margin-top: -10px !important;
-}
-
-.opl {
-    position:absolute;
-    top:245px;
-    left:0px;
-    z-index:1;
-}
-.opl a {
-    width:73px;
-    height:56px;
-    text-indent:-9999px;
-    display:block;
-    background:url('../../s3.amazonaws.com/onepagelove/one-page-love-award-left.png') no-repeat;
-}
-
-
-.opm-ribbon { 
-    position:absolute; 
-    top:300px; 
-    left:0px; 
-    z-index:1; 
-} 
-
-.opm-ribbon a { 
-    width:65px; 
-    height:85px; 
-    text-indent:-9999px; 
-    display:block; 
-    background:url('../../s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat; 
-}
 
 
 /*========================
@@ -265,9 +236,9 @@ INTRO CONTAINER
     color: white;
 }
 
-/*========================
-IMAGE INTRO BANNER CONTENT
-=========================*/
+/* ========================
+    IMAGE INTRO BANNER CONTENT
+   =========================*/
 
 .background_content {
     position: relative;
@@ -296,36 +267,36 @@ IMAGE INTRO BANNER CONTENT
     border-bottom: 8px solid #fff;
 }
 
-.background_content:nth-of-type(2) {
+.beer.background_content{
     background: url('../images/beer.jpg') no-repeat center center; 
     background-size: cover;
     background-position: 70% 50%;
 }
 
-.background_content:nth-of-type(4) {
+.bread.background_content{
     background: url('../images/bread.jpg') no-repeat center center; 
     background-size: cover;
     background-position: 70% 50%;
 }
- #featured.background_content{
+ .featured.background_content{
     background: url('../images/featured.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
- #pricing.background_content{
+ .pricing.background_content{
     background: url('../images/pricing.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-#reservation.background_content{
+.reservation.background_content{
     background: url('../images/reservation-seat.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-#bread.background_content{
+.bread.background_content{
     background: url('../images/breakfast.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
@@ -379,15 +350,6 @@ h1 {
     margin: 0;
 }
 
-.description_body p {
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.020em;
-    margin: 0 0 0 0;
-    line-height: 1.6em;
-    color: #434243;
-}
-
 
 /*========================
 IMAGE DESCRIPTION BODY CONTENT
@@ -404,21 +366,8 @@ FIRST FOOTER CONTENT
 
 .first_footer {
     background-color: #1e1e1e;
-    width: 100%;
     text-align: center;
-    padding: 1px 55px;
 }
-
-@media (min-width: 1200px) { 
-    .first_footer {
-        background-color: #1E1E1E;
-        width: 100%;
-        text-align: center;
-        padding: 1px 55px;
-        height: 400px;
-    }
-}
-
 
 
 .social_heading,
@@ -540,8 +489,6 @@ SECOND FOOTER CONTENT
 /* Contact Form */
 
 #contact .contact-form{
-    /*width:90%;
-    max-width: 830px;*/
     margin: 0 auto;
     padding:25px 25px 0px 25px;
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
@@ -583,8 +530,8 @@ SECOND FOOTER CONTENT
 .form{
     width: 100%;
     padding: 15px;
-    background:#E2E2E2;
-    border:1px solid rgba(0, 0, 0, 0.075);
+    /* background:#E2E2E2; */
+    border: 1px solid rgba(13, 12, 12, 0.23);
     margin-bottom:25px;
     color:#727272 !important;
     font-size:13px;
@@ -655,10 +602,6 @@ SECOND FOOTER CONTENT
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 }
 
-/*.form-btn1{
-    margin-left: -15px;
-    
-}*/
 
 .form-btn:hover{
     background: rgba(85, 184, 120, 1);
@@ -684,8 +627,7 @@ h1 {
 }
 
 .navbar-default {
-      /*background-color: rgba(0,0,0,0.65) !important;*/
-      border: 0 !important;
+    border: 0 !important;
 }
 
 /*========================
@@ -717,15 +659,12 @@ MEDIA QUERIES TABLET
 =========================*/
 
 
-@media (min-width: 400px) { 
+    @media (min-width: 400px) { 
     .starter_container {
         height: 100%;
     }
 
-    /*.follow_container {
-      top: 30%;
-    }*/
-
+   
     .background_content h1 {
       top: 33%;
     }
@@ -775,11 +714,11 @@ MEDIA QUERIES TABLET
 MEDIA QUERIES TABLET
 =========================*/
 
-@media (min-width: 660px) { 
+    @media (min-width: 660px) { 
   
-    .starter_container {
-        height: 100%;
-    }
+        .starter_container {
+            height: 100%;
+        }
 
     /*========================
     NAV
@@ -850,7 +789,7 @@ MEDIA QUERIES TABLET
         display: inline-block;
         width: 45px;
         height: 45px;  
-        background-size: 30px; /*This is based off of width*/
+        background-size: 30px; 
     }
 
     .direction a:hover {
@@ -874,14 +813,6 @@ MEDIA QUERIES TABLET
         letter-spacing: 0.040em;
         border: 9px solid #2f2e2f;
     }
-
-    .description_body p {
-        font-size: 1.060em;
-        font-weight: 500;
-        letter-spacing: 0.020em;
-        margin: 0 0 25px 0;
-    }
-
 
 
     .picture_content {
@@ -1214,17 +1145,9 @@ MEDIA QUERIE DESKTOP
         font-weight: 900;
         width: 414px;
         letter-spacing: 0.040em;
-        border: 9px solid #2f2e2f;
+        border: 1px solid rgba(47, 46, 47, 0.59);
     }
 
-    .description_body p {
-        font-size: 0.960em;
-        font-weight: 500;
-        letter-spacing: 0.020em;
-        display: inline-block;
-        vertical-align: middle;
-        margin: 0 0 25px 0;
-    }
 
     .picture_content {
         display: inline-block;

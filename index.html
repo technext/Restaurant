@@ -20,31 +20,33 @@
 <body>
 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Restaurant</a>
-            </div>
+        <div class="container">
+            <div class="row">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Restaurant</a>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav main-nav  clear navbar-right ">
-                    <li><a class="active color_animation" href="#top">WELCOME</a></li>
-                    <li><a class="color_animation" href="#story">ABOUT</a></li>
-                    <li><a class="color_animation" href="#pricing">PRICING</a></li>
-                    <li><a class="color_animation" href="#beer">BEER</a></li>
-                    <li><a class="color_animation" href="#bread">BREAD</a></li>
-                    <li><a class="color_animation" href="#featured">FEATURED</a></li>
-                    <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
-                    <li><a class="color_animation" href="#contact">CONTACT</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                        <li><a class="navactive color_animation" href="#top">WELCOME</a></li>
+                        <li><a class="color_animation" href="#story">ABOUT</a></li>
+                        <li><a class="color_animation" href="#pricing">PRICING</a></li>
+                        <li><a class="color_animation" href="#beer">BEER</a></li>
+                        <li><a class="color_animation" href="#bread">BREAD</a></li>
+                        <li><a class="color_animation" href="#featured">FEATURED</a></li>
+                        <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
+                        <li><a class="color_animation" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
         </div><!-- /.container-fluid -->
     </nav>
      
@@ -65,13 +67,13 @@
 
 
     <section id="story" class="description_content">
-        <div class="limit">
-            <div class="description_body margin-right">
+        <div class="text-content container">
+            <div class="col-md-6">
                 <h1>About us</h1>
                 <div class="fa fa-cutlery fa-2x"></div>
-                <p>Restaurant is a place for simplicity. Good food, good beer, and good service. Simple is the name of the game, and we’re good at finding it in all the right places, even in your dining experience. We’re a small group from Denver, Colorado who make simple food possible. Come join us and see what simplicity tastes like.</p>
+                <p class="desc-text">Restaurant is a place for simplicity. Good food, good beer, and good service. Simple is the name of the game, and we’re good at finding it in all the right places, even in your dining experience. We’re a small group from Denver, Colorado who make simple food possible. Come join us and see what simplicity tastes like.</p>
             </div>
-            <div class="picture_content margin-left">
+            <div class="col-md-6">
                 <ul class="image_box_story">
                     <li></li>
                     <li></li>
@@ -83,13 +85,14 @@
     </section>
 
 
-    <section id ="pricing" class="background_content">
-        <h1><span>Affordable</span> pricing</h1>
-    </section>
+   
 
 
-    <section class="description_content">
-        <div class="limit"> 
+    <section id ="pricing" class="description_content">
+         <div class="pricing background_content">
+            <h1><span>Affordable</span> pricing</h1>
+         </div>
+        <div class="text-content container"> 
             <div class="container">
                 <div class="row">
                     <div id="w">
@@ -134,13 +137,14 @@
     </section>
 
 
-    <section id ="beer" class="background_content">
-        <h1>Great <span>Place</span> to enjoy</h1>
-    </section>
+    
 
 
-    <section class="description_content">
-        <div class="limit">
+    <section id ="beer" class="description_content">
+        <div  class="beer background_content">
+            <h1>Great <span>Place</span> to enjoy</h1>
+        </div>
+        <div class="text-content container">
             <div class="picture_content margin-right">
                 <ul class="image_box_beer">
                     <li></li>
@@ -149,47 +153,47 @@
       	    <div class="description_body margin-left">
                 <h1>OUR BEER</h1>
                 <div class="icon-beer fa-2x"></div>
-                <p>Here at Restaurant we’re all about the love of beer. New and bold flavors enter our doors every week, and we can’t help but show them off. While we enjoy the classics, we’re always passionate about discovering something new, so stop by and experience our craft at its best.</p>
+                <p class="desc-text">Here at Restaurant we’re all about the love of beer. New and bold flavors enter our doors every week, and we can’t help but show them off. While we enjoy the classics, we’re always passionate about discovering something new, so stop by and experience our craft at its best.</p>
             </div>
         </div>
     </section>
 
 
-   <section id="bread" class="background_content">
-     <h1>Our Breakfast <span>Menu</span></h1>
-   </section>
+   
 
 
-    <section class="description_content">
-        <div class="limit">
-            <div class="description_body margin-right">
+    <section id="bread" class=" description_content">
+        <div  class="bread background_content">
+            <h1>Our Breakfast <span>Menu</span></h1>
+        </div>
+        <div class="text-content container">
+            <div class="col-md-6">
                 <h1>OUR BREAD</h1>
                 <div class="icon-bread fa-2x"></div>
-                <p>We love the smell of fresh baked bread. Each loaf is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</p>
+                <p class="desc-text">We love the smell of fresh baked bread. Each loaf is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</p>
             </div>
-            <div class="picture_content margin-left">
-                <ul class="image_box_story1">
-                    <li></li>
-                    <li></li>
-                </ul>
+            <div class="col-md-6">
+                <img src="images/bread1.jpg" width="260" >
+                <img src="images/bread1.jpg" width="260">
             </div>
         </div>
     </section>
 
 
-    <section id="featured" class="background_content">
-        <h1>Our Featured Dishes <span>Menu</span></h1>
-    </section>
+    
 
 
-    <section class="description_content">
-        <div class="limit">
-            <div class="description_body margin-right">
+    <section id="featured" class="description_content">
+        <div  class="featured background_content">
+            <h1>Our Featured Dishes <span>Menu</span></h1>
+        </div>
+        <div class="text-content container">
+            <div class="col-md-6">
                 <h1>Have a look to our dishes!</h1>
                 <div class="icon-hotdog fa-2x"></div>
-                <p>Each food is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</p>
+                <p class="desc-text">Each food is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</p>
             </div>
-            <div class="picture_content margin-left">
+            <div class="col-md-6">
                 <ul class="image_box_story2">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -204,19 +208,19 @@
                             <div class="item active">
                                 <img src="images/slider1.jpg"  alt="...">
                                 <div class="carousel-caption">
-                                    ...
+                                    
                                 </div>
                             </div>
                             <div class="item">
                                 <img src="images/slider2.jpg" alt="...">
                                 <div class="carousel-caption">
-                                    ...
+                                    
                                 </div>
                             </div>
                             <div class="item">
                                 <img src="images/slider3.jpg" alt="...">
                                 <div class="carousel-caption">
-                                    ...
+                                    
                                 </div>
                             </div>
                         </div>
@@ -226,14 +230,11 @@
         </div>
     </section>
 
-
-    <section id="reservation" class="background_content">
-        <h1>Reserve A Table!</h1>
-    </section>
-
-
-    <section class="description_content">
-        <div class="limit">
+    <section  id="reservation"  class="description_content">
+        <div class="featured background_content">
+            <h1>Reserve A Table!</h1>
+        </div>
+        <div class="text-content container">
             <div class="inner contact">
                 <!-- Form Area -->
                 <div class="contact-form">
@@ -274,14 +275,11 @@
                                     <div class="right-text">
 
                                         <h2>Hours</h2><hr>
-                                        <p>Mon to Fri: 7:30 AM - 11:30 AM</p>
-                                        <p>Sat & Sun: 8:00 AM - 9:00 AM</p>
-                                        <p>Lunch</p>
-
-                                        <p>Mon to Fri: 12:00 PM - 5:00 PM</p>
-                                        <p>Dinner</p>
-                                        <p>Mon to Sat: 6:00 PM - 1:00 AM</p>
-                                        <p>Sun: 5:30 PM - 12:00 AM</p>
+                                        <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
+                                        <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
+                                        <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
+                                        <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
+                                        <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
 
                                     </div>
                                 </div>
@@ -301,12 +299,9 @@
   
 
     <footer class="first_footer">
-        <section class="limit">
-            <div class="come_in">
-                <span class="social_heading"></span>
-                <span class="social_info"><a class="color_animation" href="https://www.google.com/maps/place/Venice,+FL/@27.114846,-82.4146291,13z/data=!3m1!4b1!4m2!3m1!1s0x88c34e48300b2dfb:0x52ac882236d6b362" target="_blank"></a></span>
-            </div>
-            <div class="connect">
+        <div class="text-content container">
+            
+            <div class="col-md-6">
                 <span class="social_heading">FOLLOW</span>
                 <ul class="social_icons">
                     <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
@@ -315,17 +310,20 @@
                     <li><a class="icon-mail color_animation" href="#"></a></li>
                 </ul>
             </div>
-            <div class="or_call">
+            <div class="col-md-4">
                 <span class="social_heading">OR DIAL</span>
                 <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(941) 883-335-6524</a></span>
             </div>
-        </section>
+        </div>
     </footer>
 
 
-    <div id="contact"  class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d26081603.29442047!2d-95.677068!3d37.0625!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1421239704485" width="100%" height="400px" frameborder="0" style="border:0"></iframe>
-    </div>
+    <section id="contact">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d26081603.29442047!2d-95.677068!3d37.0625!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1421239704485" width="100%" height="400px" frameborder="0" style="border:0">
+            </iframe>
+        </div>
+    </section>
 
     <div class="container">
         <div class="row">
@@ -364,7 +362,7 @@
     </div>
 
     <footer class="sub_footer">
-        <section class="limit">
+        <section class="container">
             <div><p>&copy; Restaurant 2014, Theme by <a href="https://themewagon.com/">ThemeWagon</a></p></div>
             <div><p>BACK TO <a href="#top">TOP</a></p></div>
             <div><p>BUILT WITH CARE BY <a href="#" target="_blank">US</a></p></div>
@@ -378,40 +376,7 @@
     <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>      
     <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="js/main.js" ></script>
 
-    <script type="text/javascript">
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                      return false;
-                    }
-                }
-            });
-        });
-
-    </script>
-
-
-    <script>
-        $(function() {
-            $( "#datepicker" ).datepicker();
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(function(){
-            $('#portfolio').mixitup({
-                targetSelector: '.item',
-                transitionSpeed: 450
-            });
-        });
-    </script>
 </body>
 </html>

@@ -9,11 +9,9 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: restaurant
 */
-
 /*========================
 GLOBAL
 =========================*/
-
 h1 {
     font-size: 37px;
     font-weight: 900;
@@ -128,13 +126,11 @@ li.item{
     -o-transform:rotate(180deg);
 }
 
-
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
-
 
 .clear::after {
     content: "";
@@ -171,8 +167,6 @@ h1, h2, p, span, a {
 .color_animation:hover{
     color: #9BE86F !important;
 }
-
-
 
 /*========================
     NAV
@@ -326,7 +320,6 @@ INTRO CONTAINER
 DESCRIPTION BODY CONTENT
 =========================*/
 
-
 .description_content {
     padding: 50px 0;
     width: 100%;
@@ -337,13 +330,10 @@ DESCRIPTION BODY CONTENT
     background: white;
     text-align: center; 
 }
-
 .description_body {
     margin: 45px auto;
     max-width: 300px;
 }
-
-
 h1 {
     font-size: 28px;
     font-weight: 900;
@@ -354,8 +344,6 @@ h1 {
     padding: 7px 16px;
     margin: 0;
 }
-
-
 /*========================
 IMAGE DESCRIPTION BODY CONTENT
 =========================*/
@@ -363,7 +351,6 @@ IMAGE DESCRIPTION BODY CONTENT
 .picture_content {
     display: none;
 }
-
 
 /*========================
 FIRST FOOTER CONTENT
@@ -373,14 +360,10 @@ FIRST FOOTER CONTENT
     background-color: #1e1e1e;
     text-align: center;
 }
-
-
 .social_heading,
 .social_info {
     display: block;
 }
-
-
 .social_heading {
     font-size: 28px;
     font-weight: 900;
@@ -763,8 +746,6 @@ MEDIA QUERIES TABLET
         padding: 0 20px;
     }
 
-
-
     /*========================
     IMAGE INTRO BANNER CONTENT
     =========================*/
@@ -818,9 +799,7 @@ MEDIA QUERIES TABLET
         display: inline-block;
         margin: 0 auto;
         width: 325px;
-    }
-
-    
+    } 
 
 } /*END OF MEDIA QUERY*/
 

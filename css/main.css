@@ -559,10 +559,11 @@ p.sub-footer-text a{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    margin:auto;
+    margin: 0 auto !important;
     box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    text-align: center;
 }
 
 
@@ -612,7 +613,8 @@ MEDIA QUERIES MOBILE
     }
 
     .form-btn {
-        margin: 0px auto 30px 50px;
+        margin: 0px auto;
+        /* display: block; */
     }
 }
 
@@ -733,11 +735,11 @@ MEDIA QUERIES TABLET
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 32px;
         font-weight: 900;
         width: 280px;
         letter-spacing: 0.040em;
-        border: 9px solid #2f2e2f;
+        border: 1px solid #2f2e2f;
     }
 
 
@@ -779,8 +781,13 @@ MEDIA QUERIES TABLET
     }
 
     /*========================
-    FIRST FOOTER CONTENT
+    Social Connect
     =========================*/
+
+    section.social_connect {
+        background-color: black;
+        text-align: center;
+}  }
 
     .social_heading {
         font-size: 33px;

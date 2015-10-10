@@ -45,7 +45,9 @@ p.desc-text{
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
-
+.img-section-space {
+    margin-top: 5px;
+}
 .fa-2x{
     padding-top: 5px;
 }
@@ -155,7 +157,8 @@ h1, h2, p, span, a {
 
 
 .color_animation {
-    word-spacing: 5px;
+    text-decoration: initial;
+    /* word-spacing: 5px; */
     margin-right: -30px;
     margin-left: -30px !important;
     color: white !important;
@@ -172,8 +175,15 @@ h1, h2, p, span, a {
 
 
 /*========================
-NAV
+    NAV
 =========================*/
+
+div#bs-example-navbar-collapse-1 {
+    height: 368px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none !important;
+}
 
 .navbar-brand{
     font-family: 'Pacifico', cursive;
@@ -327,26 +337,12 @@ DESCRIPTION BODY CONTENT
     background: white;
     text-align: center; 
 }
-.description_content1 {
-    width: 100%;
-    background: white;
-    margin: 0 auto 0 auto;
-    z-index: 99;
-    position: relative;
-    background: white;
-    text-align: center; 
-}
-
 
 .description_body {
     margin: 45px auto;
     max-width: 300px;
 }
 
-.description_body1 {
-    margin: 15px auto;
-    max-width: 400px !important;
-}
 
 h1 {
     font-size: 28px;
@@ -513,7 +509,7 @@ p.sub-footer-text a{
 
 .form{
     width: 100%;
-    padding: 15px;
+    padding: 16.94px;
     /* background:#E2E2E2; */
     border: 1px solid rgba(13, 12, 12, 0.23);
     margin-bottom:25px;
@@ -653,44 +649,7 @@ MEDIA QUERIES TABLET
       top: 33%;
     }
 
-    .direction a {
-        border: 5px solid rgba(0,0,0,0);
-        width: 48px;
-        height: 48px;
-        background-size: 30px; /*This is based off of width*/
-    }
-
-    .direction a:hover {
-      border: 5px solid #6D903C;
-    }
-
-
-    .direction_container {
-      width: 100%;
-      position: absolute;
-      bottom: 6%;
-      text-align: center;
-    }
-
-    .direction a {
-        border: 4px solid rgba(0,0,0,0);
-        display: inline-block;
-        width: 38px;
-        height: 38px;
-        background-color: blue;
-        background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOS45IDEzLjIiPjxwb2x5Z29uIGZpbGw9IiM2RDkwM0MiIHBvaW50cz0iOS40LDEzLjIgMCwyLjggMywwLjEgOS42LDcuNCAxNy4xLDAgMTkuOSwyLjgiLz48L3N2Zz4=) no-repeat center;
-        -webkit-transition: border-color 0.5s ease-out;
-        -moz-transition: border-color 0.5s ease-in-out;
-        -o-transition: border-color 0.5s ease-in-out;
-        -ms-transition: border-color 0.5s ease-in-out;
-        transition: border-color 0.5s ease-in-out;  
-        background-size: 22px; /*This is based off of width*/
-    }
-
-    .direction a:hover {
-        border: 4px solid #6D903C;
-    }
-
+    
 }
 
 
@@ -755,7 +714,7 @@ MEDIA QUERIES TABLET
     .main-nav a {
         font-size: 0.75000em;
         font-weight: 700;
-        letter-spacing: 0.250em;
+        /* letter-spacing: 0.250em; */
         text-decoration: none;
         color: #fff;
         display: block;
@@ -802,140 +761,6 @@ MEDIA QUERIES TABLET
     .picture_content {
         display: inline-block;
         padding: 0 20px;
-    }
-
-
-    .image_box_story {
-        height: 495px;
-        max-width: 500px;
-        margin: 0 auto 45px auto;
-        padding: 0;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        background-size: cover;
-    }
-
-    .image_box_story2 {
-        height: 295px;
-        max-width: 500px;
-        margin: 0 auto 45px auto;
-        padding: 0;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        background-size: cover;
-    }
-
-    .image_box_story li {
-        width: 234px;
-        height: 234px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_story li:nth-of-type(1) {
-        background: url('../images/kabob.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 20px;
-    }
-
-    .image_box_story li:nth-of-type(2) {
-        background: url('../images/limes.jpg') no-repeat center center;
-        background-size: cover;
-    }
-
-    .image_box_story li:nth-of-type(3) {
-        background: url('../images/radish.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-
-    .image_box_story li:nth-of-type(4) {
-        background: url('../images/corn.jpg') no-repeat center center;
-        background-size: cover;
-        margin-top: 20px;
-    }
-
-    .image_box_story1 li {
-        width: 238px;
-        height: 500px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_story1 li:nth-of-type(1) {
-        background: url('../images/bread1.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 20px;
-    }
-
-    .image_box_story1 li:nth-of-type(2) {
-        background: url('../images/bread2.jpg') no-repeat center center;
-        background-size: cover;
-    }
-
-
-    .image_box_beer {
-        height: 495px;
-        max-width: 500px;
-        margin: 45px auto 0 auto;
-        padding: 0;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        background-size: cover;
-    }
-
-    .image_box_beer li {
-        width: 500px;
-        height: 495px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_beer li:nth-of-type(1) {
-        background: url('../images/beer_spec.jpg') no-repeat center center;
-        background-size: cover;
-    }
-
-
-    .image_box_bread {
-        height: 495px;
-        max-width: 500px;
-        margin: 0 auto 45px auto;
-        padding: 0;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        background-size: cover;
-    }
-
-    .image_box_bread li {
-        width: 238px;
-        height: 500px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_bread li:nth-of-type(1) {
-        background: url('../images/seeds.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 19px;
-    }
-    .image_box_bread li:nth-of-type(1) {
-        background: url('../images/bread.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 19px;
     }
 
 
@@ -1010,37 +835,6 @@ MEDIA QUERIE DESKTOP
         background-attachment: fixed;
     }
 
-    .logo {
-        width: 130px;
-        height: 44px;
-        background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOTUuMiAxMDAiPjxnPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0zNi4yIDU4LjZoNy41YzExLjYgMCAxOS43LTguOSAxOS43LTIxLjhzLTguMS0yMS43LTE5LjctMjEuN0gyNC44djY2LjZoMTEuNFY1OC42eiBNMzYuMiAyNS4yaDUuNyBjNS43IDAgOS44IDQuNSA5LjggMTEuNmMwIDctMy44IDExLjctMTAgMTEuN2gtNS41VjI1LjJ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTkwLjEgNTYuOGg3LjJsMTAuMSAyNC44SDEyMGwtMTEuMS0yNC43Yy0xLjEtMi4zLTItMy42LTItMy42di0wLjJjNS4xLTIuOSA5LjctOS41IDkuNy0xOC4zIGMwLTguNS00LjEtMTQuOS0xMC0xNy43Yy0yLjgtMS40LTYuMi0yLjEtOC43LTIuMUg3OC43djY2LjZoMTEuNFY1Ni44eiBNOTAuMSAyNS4zaDYuM2MxLjYgMCAzLjcgMC42IDUuMiAxLjYgYzIuMiAxLjcgMy42IDUgMy42IDguOWMwIDYuOC00LjIgMTAuOS04LjkgMTAuOWgtNi4xVjI1LjN6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE3OC4xIDQ0LjZjMC4zLTQuNC0wLjEtMTAuMy0wLjEtMTAuM2gwLjRjMCAwIDEuMSA2LjggMi4yIDEwLjdsMTAuMyAzNi43aDQuN0wyMDYgNDUgYzEtMy45IDIuMi0xMC43IDIuMi0xMC43aDAuM2MwIDAtMC40IDUuOS0wLjEgMTAuM2wyLjIgMzdoMTAuNkwyMTcgMTUuMWgtMTIuNmwtOSAzMi4zYy0wLjkgNC0yLjEgMTAuMS0yLjEgMTAuMWgtMC4zIGMwIDAtMS02LjEtMi4xLTEwLjFsLTktMzIuM2gtMTIuNmwtNC4zIDY2LjZoMTAuN0wxNzguMSA0NC42eiIvPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMjcxLjcsNzEuNSAyNTAuMyw3MS41IDI1MC4zLDUzLjEgMjY2LjYsNTMuMSAyNjYuNiw0MyAyNTAuMyw0MyAyNTAuMywyNS4yIDI3MC41LDI1LjIgMjcwLjUsMTUuMSAyMzguOSwxNS4xIDIzOC45LDgxLjYgMjcxLjcsODEuNiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDB2MTAwaDI5NS4yVjBIMHogTTI4OC43IDkzLjVINi41VjYuNWgyODIuMVY5My41eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMzMuNSA2MC4ybDAuMiAwbDAuMSAwYzAuNSAwIDEuMS0wLjIgMS45LTAuNGMwLjIgMCAwLjQtMC4xIDAuNy0wLjJjMS0wLjMgMi42LTAuNyAzLjgtMSBjMC4yIDAuNyAwLjQgMS4zIDAuNCAxLjVjMCAwLjMtMC40IDEuOC0wLjggM2wwIDAuMWwwIDAuMWMtMC4xIDAuNC0wLjQgMi43LTAuNCAzLjdjMCAwLjkgMC4zIDMgMC40IDMuNmwwIDAuMWwwIDAuMSBjMC40IDEuMyAwLjcgMi41IDAuOCAyLjljLTAuMSAwLjItMC4zIDAuNi0wLjYgMS4xYy0wLjEgMC4xLTAuMSAwLjItMC4yIDAuM2wtMC4xIDAuMmwwIDAuM2wwLjEgMS40YzAgMCAwIDAuMSAwIDAuMWwwLjMgMiBjMC40IDEgMC45IDEuOCAxLjYgMi4ybDAuMSAwLjFsMC4yIDBjMC41IDAuMSAxLjMgMC4yIDIuMSAwLjJjMS40IDAgMi4yLTAuMiAyLjYtMC4zYzEuNi0wLjIgMi43LTIuMiAyLjctMy41bDAuMi0xOS45bDAuNC0zNy4yIGMwLTMuMi0xLjctNS43LTEuOC01LjhsLTAuOS0xLjJsLTEuMyAwLjhjLTkuMyA1LjctMTIuOSAxNS45LTE0LjMgMjMuNGMtMS42IDguOC0wLjggMTYuOSAwLjEgMTkuOUMxMzIgNTkuMSAxMzIuNCA2MCAxMzMuNSA2MC4yeiBNMTQ3LjUgMjAuOWwtMC40IDM3LjJMMTQ3IDc4YzAgMC41LTAuNSAxLjEtMC43IDEuMmwtMC4yIDBjLTAuMyAwLjEtMC45IDAuMi0yLjEgMC4yYy0wLjUgMC0xIDAtMS4zLTAuMWMtMC41LTAuNC0xLTEuOS0wLjktMyBjMC0wLjEgMC4xLTAuMiAwLjEtMC4zbDAgMGwwIDBjMC40LTAuNyAwLjktMS42IDAuOS0yLjJjMC0wLjItMC4xLTAuNi0wLjEtMWwtMC4zLTEuMWwtMC4yLTAuNmMtMC4xLTAuMy0wLjItMC42LTAuMy0wLjkgYy0wLjItMS4xLTAuMy0yLjUtMC4zLTMuMWMwLTAuNiAwLjItMi4zIDAuNC0zLjJjMC4yLTAuNiAwLjktMi44IDAuOS0zLjdjMC0wLjgtMC41LTIuMy0wLjktMy4ybC0wLjMtMC45bC0wLjkgMC4xIGMtMS4yIDAuMS0zLjEgMC42LTQuNSAxYy0wLjEtMC4yLTAuMS0wLjQtMC4yLTAuNmMtMC4zLTEuMi0wLjUtMy0wLjYtNS4xYy0wLjEtMS4xLTAuMS0yLjIgMC0zLjRjMC0xLjIgMC4xLTIuNSAwLjItMy44IGMwLjEtMS4zIDAuMy0yLjcgMC41LTQuMWMwLjItMS40IDAuNS0yLjggMC44LTQuMWMwLjMtMS40IDAuNy0yLjcgMS4yLTRjMC4yLTAuNyAwLjUtMS4zIDAuNy0xLjljMC4xLTAuMyAwLjMtMC42IDAuNC0wLjkgYzAuMS0wLjMgMC4zLTAuNiAwLjQtMC45YzAuMy0wLjYgMC42LTEuMiAwLjktMS43YzAuMi0wLjMgMC4zLTAuNSAwLjUtMC44YzAuMi0wLjMgMC4zLTAuNSAwLjUtMC44YzAuMy0wLjUgMC43LTEgMS0xLjQgYzAuMy0wLjUgMC43LTAuOSAxLTEuM2MwLjMtMC40IDAuNy0wLjggMS0xLjFjMC4zLTAuNCAwLjctMC43IDEtMWMwLjUtMC41IDEtMC45IDEuNC0xLjJDMTQ3LjQgMTkuNiAxNDcuNSAyMC4yIDE0Ny41IDIwLjl6IE0xMzMuOSAzOC42YzEuMy02LjkgNC41LTE2LjEgMTIuNy0yMS41YzAuMiAwLjQgMC41IDEgMC43IDEuN2MtMC41IDAuMy0xIDAuNy0xLjYgMS4yYy0wLjMgMC4zLTAuNyAwLjYtMSAwLjkgYy0wLjIgMC4yLTAuNCAwLjMtMC41IDAuNWMtMC4yIDAuMi0wLjQgMC40LTAuNSAwLjZjLTAuNCAwLjQtMC44IDAuOC0xLjEgMS4zYy0wLjQgMC41LTAuNyAwLjktMS4xIDEuNGMtMC4yIDAuMy0wLjQgMC41LTAuNSAwLjggYy0wLjIgMC4zLTAuMyAwLjUtMC41IDAuOGMtMC40IDAuNS0wLjYgMS4xLTEgMS43Yy0wLjIgMC4zLTAuMyAwLjYtMC40IDAuOWMtMC4xIDAuMy0wLjMgMC42LTAuNCAwLjljLTAuMyAwLjYtMC42IDEuMy0wLjggMiBjLTAuNSAxLjMtMC45IDIuNy0xLjMgNC4xYy0wLjMgMS40LTAuNiAyLjgtMC44IDQuMmMtMC4yIDEuNC0wLjQgMi44LTAuNCA0LjFjLTAuMSAxLjMtMC4xIDIuNi0wLjEgMy45YzAgMC42IDAgMS4yIDAuMSAxLjggYzAgMC42IDAuMSAxLjEgMC4xIDEuN2MwLjEgMS4xIDAuMiAyIDAuNCAyLjljMC4xIDAuOSAwLjMgMS42IDAuNSAyLjJjMC4xIDAuMiAwLjEgMC40IDAuMiAwLjZjLTAuMiAwLTAuMyAwLjEtMC41IDAuMSBjLTAuMyAwLjEtMC41IDAuMS0wLjcgMC4yYy0wLjQgMC4xLTAuOCAwLjItMSAwLjNjMC0wLjEtMC4xLTAuMi0wLjItMC41QzEzMyA1NC40IDEzMi40IDQ2LjYgMTMzLjkgMzguNnoiLz48L2c+PC9zdmc+) no-repeat center;
-        background-size: 100%;
-        display: inline-block;
-        float: left;
-        margin: 5px 0 0 25px;
-    }
-
-    .logo a,
-    .main-nav a {
-        text-decoration: none;
-        color: white;
-        display: block;
-        text-align: center;
-        padding: 3px 1px;
-    }
-
-    .main-nav {
-        float: right;
-        padding: 0;
-        margin: 0;
-        margin: 18px 20px 0 0;
-    }
-
-    .main-nav li {
-        display: inline-block;
-        list-style: none;
-        margin: 0 32px 0 32px;
-    }
 
     /*========================
     BACKGROUND CONTENT
@@ -1097,129 +891,11 @@ MEDIA QUERIE DESKTOP
         vertical-align: middle;
     }
 
-    .image_box_story {
-        height: 495px;
-        max-width: 500px;
-        margin: 0px auto 0px auto;
-        padding: 0;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        background-size: cover;
-    }
-
-    .image_box_story li {
-        width: 234px;
-        height: 234px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_story li:nth-of-type(1) {
-        background: url('../images/kabob.jpg') no-repeat center center;
-        margin-right: 20px;
-    }
-
-    .image_box_story li:nth-of-type(2) {
-        background: url('../images/limes.jpg') no-repeat center center;
-    }
-
-    .image_box_story li:nth-of-type(3) {
-        background: url('../images/radish.jpg') no-repeat center center;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-
-    .image_box_story li:nth-of-type(4) {
-        background: url('../images/corn.jpg') no-repeat center center;
-        margin-top: 20px;
-    }
-
-
-    .image_box_story li:nth-of-type(1),
-    .image_box_story li:nth-of-type(2),
-    .image_box_story li:nth-of-type(3),
-    .image_box_story li:nth-of-type(4) {
-        background-size: cover;
-    } 
-
-
-    .image_box_beer,
-    .image_box_bread {
-        height: 495px;
-        max-width: 500px;
-        margin: 0 auto 0 auto;
-        padding: 0;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        background-size: cover;
-    }
-
-    .image_box_beer li {
-        width: 500px;
-        height: 495px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_beer li:nth-of-type(1) {
-        background: url('../images/beer_spec.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 20px;
-    }
-
-
-    .image_box_bread li {
-        width: 238px;
-        height: 500px;
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_box_bread li:nth-of-type(1) {
-        background: url('../images/seeds.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 19px;?
-        float: left;
-    }
-    .image_box_bread li:nth-of-type(2) {
-        background: url('../images/bread.jpg') no-repeat center center;
-        background-size: cover;
-        margin-right: 19px;
-    }
 
     /*========================
     FIRST FOOTER CONTENT
     =========================*/
 
-    .first_footer div:nth-child(1) {
-        display: block;
-    }
-
-    .first_footer div:nth-child(2),
-    .first_footer div:nth-child(3) {
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-
-    /*THIS IS CONTROLLING THE MARGIN FOR "CONNECT"*/
-    .first_footer div:nth-child(2) {
-        margin-right: 135px;
-        /*  margin-left: 50px;*/
-    }
-
-    /*THIS IS CONTROLLING THE MARGIN FOR "OR CALL"*/
-    .first_footer div:nth-child(3) {
-        /*margin-left: 75px;*/
-    }
 
     .social_heading {
         font-size: 33px;
@@ -1248,6 +924,3 @@ MEDIA QUERIE DESKTOP
         font-size: 30px;
     }
 }
-
-
-   

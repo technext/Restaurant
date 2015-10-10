@@ -735,11 +735,11 @@ MEDIA QUERIES TABLET
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 32px;
         font-weight: 900;
         width: 280px;
         letter-spacing: 0.040em;
-        border: 9px solid #2f2e2f;
+        border: 1px solid #2f2e2f;
     }
 
 
@@ -781,8 +781,13 @@ MEDIA QUERIES TABLET
     }
 
     /*========================
-    FIRST FOOTER CONTENT
+    Social Connect
     =========================*/
+
+    section.social_connect {
+        background-color: black;
+        text-align: center;
+}  }
 
     .social_heading {
         font-size: 33px;

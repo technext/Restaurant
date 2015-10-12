@@ -19,7 +19,6 @@ h1 {
     letter-spacing: 0.040em;
     border: 1px solid rgba(47, 46, 47, 0.59);
 }
-
 .navactive{
    border-bottom: 1px solid #96E16B;
 }
@@ -49,7 +48,6 @@ p.desc-text{
 .fa-2x{
     padding-top: 5px;
 }
-
 @font-face {
     font-family: 'icomoon';
     src:url('../fonts/icomoonacfe.eot?-yinaf8');
@@ -150,8 +148,6 @@ h1, h2, p, span, a {
     width: 100%;
     margin: 0 auto;
 }
-
-
 .color_animation {
     text-decoration: initial;
     /* word-spacing: 5px; */
@@ -167,18 +163,15 @@ h1, h2, p, span, a {
 .color_animation:hover{
     color: #9BE86F !important;
 }
-
 /*========================
     NAV
 =========================*/
-
 div#bs-example-navbar-collapse-1 {
     height: 368px;
     overflow: hidden;
     text-align: center;
     text-decoration: none !important;
 }
-
 .navbar-brand{
     font-family: 'Pacifico', cursive;
     font-size: 34px !important;
@@ -197,13 +190,9 @@ li{
     /*padding-left: 10px;*/
     word-spacing: 5px !important;
 }
-
-
 /*========================
 INTRO CONTAINER
 =========================*/
-
-
 .starter_container {
     margin-top: -21px;
     padding: 0;
@@ -214,15 +203,12 @@ INTRO CONTAINER
     text-align: center;
     background-position: center;  
 }
-
-
 .follow_container {
     width: 100%;
     position: absolute;
     top: 35%;
     text-align: center;
 }
-
 .starter_follow {
     display: inline-block;
     width: 80%;
@@ -230,14 +216,12 @@ INTRO CONTAINER
     margin: 0 auto;
     padding: 0;
 }
-
 .top-title{
     color: white;
     font-family: 'Playball', cursive;
     font-size: 120px;
     font-weight: 400;
  }
-
 .second-title {
     font-weight: lighter; 
     font-size: 30px; 
@@ -315,11 +299,9 @@ INTRO CONTAINER
     background-position: center;
     background-attachment: fixed;
 }
-
 /*========================
 DESCRIPTION BODY CONTENT
 =========================*/
-
 .description_content {
     padding: 50px 0;
     width: 100%;
@@ -347,15 +329,12 @@ h1 {
 /*========================
 IMAGE DESCRIPTION BODY CONTENT
 =========================*/
-
 .picture_content {
     display: none;
 }
-
 /*========================
 FIRST FOOTER CONTENT
 =========================*/
-
 .first_footer {
     background-color: #1e1e1e;
     text-align: center;
@@ -372,7 +351,6 @@ FIRST FOOTER CONTENT
     text-align: center;
     margin: 40px 0 0 0;
 }
-
 .social_info, 
 .social_icons {
     margin: 18px 0 50px 0;
@@ -409,8 +387,6 @@ FIRST FOOTER CONTENT
 .social_icons li:nth-child(3) {
     margin: 0 50px 0 0;
 }
-
-
 .social_icons li a {
     color: #fff;
     text-decoration: none;
@@ -440,17 +416,15 @@ p.sub-footer-text{
 
 p.sub-footer-text a{
     color: #BDBDBD;
+    text-decoration: none;
 }
-
 
 /*Contact */
 
 .contact-text{
     margin:45px auto;
 }
-
 /* Contact Form */
-
 #contact .contact-form{
     margin: 0 auto;
     padding:25px 25px 0px 25px;
@@ -517,10 +491,8 @@ p.sub-footer-text a{
     height: 200px;
     max-height: 200px;
     max-width: 100%;
-}
-  
+} 
 /* Generic Button Styles */
-
 .button{
     padding:8px 12px;
     background:#0A5175;
@@ -565,8 +537,6 @@ p.sub-footer-text a{
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     text-align: center;
 }
-
-
 .form-btn:hover{
     background: rgba(85, 184, 120, 1);
     color: white;
@@ -589,7 +559,6 @@ div .fa-2x {
 h1 {
     text-transform: capitalize;
 }
-
 .navbar-default {
     border: 0 !important;
 }
@@ -617,8 +586,6 @@ MEDIA QUERIES MOBILE
         /* display: block; */
     }
 }
-
-
 /*========================
 MEDIA QUERIES TABLET
 =========================*/
@@ -628,15 +595,10 @@ MEDIA QUERIES TABLET
     .starter_container {
         height: 100%;
     }
-
-   
     .background_content h1 {
       top: 33%;
-    }
-
-    
+    }  
 }
-
 
 /*========================
 MEDIA QUERIES TABLET
@@ -659,14 +621,12 @@ MEDIA QUERIES TABLET
     nav li{
         padding-right: -15px;
     }
-
     .navbar-brand{
         font-family: 'Pacifico', cursive;
         font-size: 34px !important;
         text-decoration: none;
         color: white !important;
     }
-
     nav {
         position: fixed;
         display: block;
@@ -679,22 +639,18 @@ MEDIA QUERIES TABLET
         background-color: #1e1e1e;
         text-align: center;
     }
-
     .logo {
         display: none;
     }
-
     .main-nav {
         padding: 0;
         margin: 18px auto 0 auto;
     }
-
     .main-nav li {
         display: inline-block;
         list-style: none;
         margin: 0 29px 0 29px;
     }
-
     .logo a,
     .main-nav a {
         font-size: 0.75000em;
@@ -707,11 +663,9 @@ MEDIA QUERIES TABLET
         padding: 2px 0;
         transition: color 0.3s ease-in-out;
     }
-
     .main-nav a:hover {
         color: #6c8f34;
     }
-
     .direction a {
         border: 5px solid rgba(0,0,0,0);
         display: inline-block;
@@ -719,11 +673,9 @@ MEDIA QUERIES TABLET
         height: 45px;  
         background-size: 30px; 
     }
-
     .direction a:hover {
         border: 5px solid #6D903C;
     }
-
 
     /*========================
     DESCRIPTION BODY CONTENT
@@ -733,7 +685,6 @@ MEDIA QUERIES TABLET
         margin: 45px auto;
         max-width: 500px;
     }
-
     h1 {
         font-size: 32px;
         font-weight: 900;
@@ -741,8 +692,6 @@ MEDIA QUERIES TABLET
         letter-spacing: 0.040em;
         border: 1px solid #2f2e2f;
     }
-
-
     .picture_content {
         display: inline-block;
         padding: 0 20px;
@@ -779,7 +728,7 @@ MEDIA QUERIES TABLET
         padding: 0;
         border-bottom: 10px solid #fff;
     }
-
+}
     /*========================
     Social Connect
     =========================*/
@@ -787,7 +736,8 @@ MEDIA QUERIES TABLET
     section.social_connect {
         background-color: black;
         text-align: center;
-}  }
+        margin-bottom: 50px;
+  }
 
     .social_heading {
         font-size: 33px;
@@ -813,7 +763,6 @@ MEDIA QUERIES TABLET
 /*========================
 MEDIA QUERIE DESKTOP
 =========================*/
-
 
 @media (min-width: 1100px) { 
 
@@ -877,11 +826,9 @@ MEDIA QUERIE DESKTOP
         vertical-align: middle;
     }
 
-
     /*========================
     FIRST FOOTER CONTENT
     =========================*/
-
 
     .social_heading {
         font-size: 33px;

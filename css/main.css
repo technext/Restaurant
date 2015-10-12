@@ -728,7 +728,7 @@ MEDIA QUERIES TABLET
         padding: 0;
         border-bottom: 10px solid #fff;
     }
-
+}
     /*========================
     Social Connect
     =========================*/
@@ -736,7 +736,8 @@ MEDIA QUERIES TABLET
     section.social_connect {
         background-color: black;
         text-align: center;
-}  }
+        margin-bottom: 50px;
+  }
 
     .social_heading {
         font-size: 33px;
